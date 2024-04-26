@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.logo{
+    padding-left: 60px;
+}
+
+.dropdown-menu{
+    padding-right: 50px;
+}
+
+.search{
+    padding-left: 1600px;
+}
+
+
+.background{
+    background-image: url("/img/DJI_0008\ \(1\).jpg");
+    height: 900px;
+    background-size: cover;
+    text-align: center;
+}
+
+.text-one{
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: white;
+}
+
+.text-two{
+    padding-top: 8px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: white;
+}
+
+.general-menu{
+    background-color: #1A5DA1;
+    height: 55px;
+    z-index: 1000;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none solid rgb(218, 232, 215);
+    text-transform: uppercase;
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+    word-spacing: 0px;
+}
+
+.navigation a:hover{
+    border-bottom:2px solid yellow;
+    color: yellow;
+}
+
+.container{
+    display: block;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.container h1{
+    padding-top: 30px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 55.5px;
+    font-weight: 600;
+    color: #55565A;
+}
+
+.container p{
+    padding-top: 20px;
+    padding-left: 215px;
+    text-align: left;
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    width: 1140px;
+    color: #6D726E;
+}
